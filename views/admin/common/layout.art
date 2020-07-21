@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Blog - Content Manager</title>
+    <!-- 以/开头 表示绝对路径 根路径为设置的静态资源根路径,不以/开头 表示相对路径 相对浏览器请求的地址 -->
+    <link rel="stylesheet" href="/admin/lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/admin/css/base.css">
+    {{block "link"}}{{/block}}
+</head>
+
+<body>
+    {{block "main"}}{{/block}}
+    <script src="/admin/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/admin/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/admin/js/common.js"></script>
+    {{block "script"}}{{/block}}
+</body>
+
+</html>
